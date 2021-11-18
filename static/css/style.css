@@ -10,3 +10,17 @@
     background-size: 100% 100%;
     text-align: center;
   }
+  tbody {
+    background-color: lightgrey;
+    color: white;
+  }
+  thead {
+    background-color: rgb(179, 87, 2);
+    color: rgb(236, 192, 134);
+  }
+  p{
+ color: rgb(179, 87, 2);
+  
+  }
+ 
+  

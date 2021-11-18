@@ -54,10 +54,10 @@ function table(dataOutput) {
     });
   }
 
-//var searchButton = d3.select("#filter-btn");
+var searchButton = d3.select("#filter-btn");
 
 // add an event listener to searchbutton and resetbutton and add a function
-//searchButton.on("click", search);
+searchButton.on("click", search);
 
 function search(event){
 	  //to prevent the page from refreshing
@@ -101,20 +101,7 @@ function search(event){
     }
 
 }  
-
-var inputFieldDate = d3.select("#datetime");
-var inputFieldCity = d3.select("#city");
-var inputFieldState = d3.select("#state");
-var inputFieldCountry = d3.select("#country");
-var inputFieldShape = d3.select("#shape");
-
-
-// Complete the form handler for the form
-inputFieldDate.on("change", search);
-inputFieldCity.on("change", search);
-inputFieldState.on("change", search);
-inputFieldCountry.on("change", search);
-inputFieldShape.on("change", search);
+  
 
 
 
